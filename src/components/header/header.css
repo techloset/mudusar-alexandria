@@ -1,8 +1,23 @@
-.customClass{
-   
+.customClass {
+
 
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../../assests/bgImg.png');
-background-repeat: no-repeat;
-background-size: cover;
-/* height: fit-content; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 1000vh;/ */
+}
+
+@media screen and (min-width:2000px) {
+    .customClass {
+        background-size: cover
+    }
+}
+
+@media screen and (max-width:750px) {
+    .customClass {
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        height: auto;
+    }
 }

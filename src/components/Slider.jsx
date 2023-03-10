@@ -91,7 +91,7 @@ export default () => {
                 <h1 className="text-center font-serif text-3xl">Want to add your work?</h1>
             </div>
             <div className="flex justify-center mt-10">
-                <button className=' bg-gradient-to-r from-[#6B60EB] to-[#CE5FE5] text-white flex gap-2 justify-center px-16 py-4    text-xl font-bold rounded-xl '> <h1>CONTACT US</h1></button>
+                <button className=' bg-gradient-to-r  from-[#6B60EB] to-[#CE5FE5] text-white flex gap-2 justify-center px-16 py-4    text-xl font-bold rounded-xl '> <h1 className="font-sans">CONTACT US</h1></button>
 
                 {/* <button  ><img src={buttonImg1} alt="" /></button> */}
             </div>
