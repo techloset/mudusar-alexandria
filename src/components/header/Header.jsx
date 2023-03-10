@@ -25,9 +25,9 @@ const Header = () => {
           <div className='flex gap-10 '>
             <ul className={`  max-md:hidden  flex gap-6  text-white font-medium text-xl pt-1 `}>
               {/* <ul className=' flex gap-10 items-center max-md:hidden md:block md:flex  text-white font-semibold text-xl'> */}
-              <li className='font-sans'>About</li>
-              <li className='font-sans'>Authors</li>
-              <li className='font-sans'>Team</li>
+              <li className='font-sans cursor-pointer'>About</li>
+              <li className='font-sans cursor-pointer'>Authors</li>
+              <li className='font-sans cursor-pointer'>Team</li>
             </ul>
             {loader && <Menu closeModal={setLoader} />}
             <ReactDimmer
