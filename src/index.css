@@ -5,7 +5,8 @@ body{
     /* overflow-y: scroll; */
     overflow-x: hidden;
 }
-*{font-family: 'Poppins', serif;}
+/* *{font-family: 'Poppins', serif;} */
+*{font-family: 'Prata', serif;}
 
 .modal {
     position: fixed;

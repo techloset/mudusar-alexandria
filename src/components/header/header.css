@@ -1,13 +1,19 @@
+@media screen and (min-width:750px) {
+
 .customClass {
-
-
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../../assests/bgImg.png');
     background-repeat: no-repeat;
     background-size: contain;
     /* height: 1000vh;/ */
+}}
+@media screen and (max-width:749px) {
+    .customClass1 {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url('../../assests/hero-bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 }
-
-@media screen and (min-width:2000px) {
+/* @media screen and (min-width:2000px) {
     .customClass {
         background-size: cover
     }
@@ -20,4 +26,4 @@
         background-size: cover;
         height: auto;
     }
-}
+} */
